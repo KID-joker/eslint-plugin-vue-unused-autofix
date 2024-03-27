@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-vue-unused-autofix",
+  "version": "0.1.0",
+  "description": "Provide an autofixer for the `no-unused-components` and `no-unused-properties`.",
+  "author": "KID-joker",
+  "license": "MIT",
+  "homepage": "https://github.com/KID-joker/eslint-plugin-vue-unused-autofix#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KID-joker/eslint-plugin-vue-unused-autofix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KID-joker/eslint-plugin-vue-unused-autofix/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "vue",
+    "vuejs",
+    "unused",
+    "autofix"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "scripts": {},
+  "dependencies": {
+    "eslint-plugin-vue": "^9.24.0",
+    "eslint-rule-composer": "^0.3.0",
+    "vue-eslint-parser": "^9.4.2"
+  }
+}
