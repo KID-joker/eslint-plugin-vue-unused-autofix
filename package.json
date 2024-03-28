@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-vue-unused-autofix",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Provide an autofixer for the `no-unused-components` and `no-unused-properties`.",
   "author": "KID-joker",
   "license": "MIT",

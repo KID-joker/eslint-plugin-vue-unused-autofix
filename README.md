@@ -4,7 +4,7 @@
 [![NPM downloads](https://img.shields.io/npm/dm/eslint-plugin-vue-unused-autofix.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue-unused-autofix)
 [![License](https://img.shields.io/github/license/KID-joker/eslint-plugin-vue-unused-autofix.svg?style=flat)](https://github.com/KID-joker/eslint-plugin-vue-unused-autofix/blob/main/LICENSE)
 
-> Provide an autofixer for the `no-unused-components` and `no-unused-properties`.
+> Provide an autofixer for the [`no-unused-components`](https://eslint.vuejs.org/rules/no-unused-components) and [`no-unused-properties`](https://eslint.vuejs.org/rules/no-unused-properties).
 
 ## Installation
 
@@ -35,4 +35,4 @@ Add `vue-unused-autofix` to your `.eslintrc` configuration file:
 -   `no-unused-components`
 -   `no-unused-properties`
 
-**Note:** The `no-unused-properties` only autofix `props` and `mapState|mapGetters|mapMutations|mapActions`, because `data`, `computed`, and `methods` may be used by other components.
+**Note:** The `no-unused-properties` only autofix `props` and `mapState|mapGetters|mapMutations|mapActions`, because `data`, `computed`, and `methods` may be used by other components (e.g. mixins, property access via $refs). If the options has `mixins` or `extends`, it will skip.
